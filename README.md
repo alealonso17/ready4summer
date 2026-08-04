@@ -2,6 +2,12 @@
 
 A PWA that helps you track facial water retention by scanning your meals with your phone camera.
 
+<div style="display: flex; width: 100%; height: auto; justify-content: space-between;">
+  <img src="./public/readmePics/pre" /> 
+  <img src="./public/readmePics1/pre" /> 
+  <img src="./public/readmePics2/pre" /> 
+</div>
+
 ## What it does
 
 Point your camera at food, add an optional comment, and GPT-4o Vision analyzes the nutritional profile — focusing on the factors that cause facial bloating: sodium, refined carbs, sugar, potassium, and hydration.
