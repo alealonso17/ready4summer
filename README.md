@@ -4,8 +4,8 @@ A PWA that helps you track facial water retention by scanning your meals with yo
 
 <div style="display: flex; width: 100%; height: auto; justify-content: space-between;">
   <img src="./public/readmePics/pre" /> 
-  <img src="./public/readmePics1/pre" /> 
-  <img src="./public/readmePics2/pre" /> 
+  <img src="./public/readmePics/pre1" /> 
+  <img src="./public/readmePics/pre3" /> 
 </div>
 
 ## What it does
