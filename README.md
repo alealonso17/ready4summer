@@ -1,35 +1,43 @@
-# React + TypeScript + Vite
+# CSS2TW
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A lightweight tool that converts CSS properties into Tailwind utility classes in real time.
 
-Currently, two official plugins are available:
+Built to speed up migrations and help developers learn Tailwind through instant autocomplete and visual feedback.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- ⚡ Real-time CSS → Tailwind conversion
+- 🔍 Autocomplete suggestions as you type
+- 📋 One-click copy to clipboard
+- 🎓 Learn Tailwind by seeing the output of familiar CSS
+- 🪶 Lightweight — no dependencies, runs in the browser
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Sneak Peek
 
-Note: This will impact Vite dev & build performances.
+<p align="center">
+  <img src="./screenshots/screenshot-1.png" alt="CSS2TW main view" width="700" />
+</p>
 
-## Expanding the Oxlint configuration
+<p align="center">
+  <img src="./screenshots/screenshot-2.png" alt="CSS2TW autocomplete" width="700" />
+</p>
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+> Add your screenshots to a `/screenshots` folder in the repo root.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Stack
+
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+
+## Run locally
+
+```bash
+pnpm install
+pnpm dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
-# ready4summer
+## License
+
+MIT
