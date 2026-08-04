@@ -3,9 +3,9 @@
 A PWA that helps you track facial water retention by scanning your meals with your phone camera.
 
 <div style="display: flex; width: 100%; height: auto; justify-content: space-between;">
-  <img src="./public/readmePics/pre" /> 
-  <img src="./public/readmePics/pre1" /> 
-  <img src="./public/readmePics/pre3" /> 
+  <img src="./public/pre.png" /> 
+  <img src="./public/pre1.png" /> 
+  <img src="./public/pre3.png" /> 
 </div>
 
 ## What it does
