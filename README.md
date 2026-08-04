@@ -1,35 +1,30 @@
-# CSS2TW
+# ready4summer
 
-A lightweight tool that converts CSS properties into Tailwind utility classes in real time.
+A PWA that helps you track facial water retention by scanning your meals with your phone camera.
 
-Built to speed up migrations and help developers learn Tailwind through instant autocomplete and visual feedback.
+## What it does
+
+Point your camera at food, add an optional comment, and GPT-4o Vision analyzes the nutritional profile — focusing on the factors that cause facial bloating: sodium, refined carbs, sugar, potassium, and hydration.
+
+Each meal gets a **Retention Score** (0–100) predicting how likely it is to puff up your face the next morning. Daily totals aggregate into a weighted average so you can track patterns over time.
 
 ## Features
 
-- ⚡ Real-time CSS → Tailwind conversion
-- 🔍 Autocomplete suggestions as you type
-- 📋 One-click copy to clipboard
-- 🎓 Learn Tailwind by seeing the output of familiar CSS
-- 🪶 Lightweight — no dependencies, runs in the browser
-
-## Sneak Peek
-
-<p align="center">
-  <img src="./screenshots/screenshot-1.png" alt="CSS2TW main view" width="700" />
-</p>
-
-<p align="center">
-  <img src="./screenshots/screenshot-2.png" alt="CSS2TW autocomplete" width="700" />
-</p>
-
-> Add your screenshots to a `/screenshots` folder in the repo root.
+- 📸 Camera scan with real-time preview
+- 🤖 GPT-4o Vision nutritional analysis
+- 💧 Facial retention score per meal and per day
+- 📊 Daily summary with macro breakdown
+- 📅 Calendar heatmap + list view history
+- 📱 Installable PWA — works offline, feels native
+- 💾 All data stored locally (localStorage)
 
 ## Stack
 
-- React
-- TypeScript
+- React + TypeScript
 - Tailwind CSS
-- Vite
+- Vite + vite-plugin-pwa
+- OpenAI API (GPT-4o-mini with vision)
+- Vercel
 
 ## Run locally
 
@@ -38,6 +33,8 @@ pnpm install
 pnpm dev
 ```
 
-## License
+Add your API key in `.env.local`:
 
-MIT
+```
+VITE_CHATGPT_API_KEY=sk-your-key
+```
